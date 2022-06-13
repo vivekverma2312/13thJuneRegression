@@ -4,12 +4,14 @@
   "pageOrder": [
     "Menu",
     "Rating",
-    " Input"
+    " Input",
+    "Audio"
   ],
   "publishedPageOrder": [
     "Menu",
     "Rating",
-    " Input"
+    " Input",
+    "Audio"
   ],
   "publishedDefaultPageName": "Menu",
   "unpublishedDefaultPageName": "Menu",
