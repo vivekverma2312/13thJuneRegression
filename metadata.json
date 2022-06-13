@@ -7,7 +7,8 @@
     " Input",
     "Audio",
     "AudioRecorder",
-    "Checkbox Group"
+    "Checkbox Group",
+    "Switch Group"
   ],
   "publishedPageOrder": [
     "Menu",
@@ -15,7 +16,8 @@
     " Input",
     "Audio",
     "AudioRecorder",
-    "Checkbox Group"
+    "Checkbox Group",
+    "Switch Group"
   ],
   "publishedDefaultPageName": "Menu",
   "unpublishedDefaultPageName": "Menu",
