@@ -6,14 +6,16 @@
     "Rating",
     " Input",
     "Audio",
-    "AudioRecorder"
+    "AudioRecorder",
+    "Checkbox Group"
   ],
   "publishedPageOrder": [
     "Menu",
     "Rating",
     " Input",
     "Audio",
-    "AudioRecorder"
+    "AudioRecorder",
+    "Checkbox Group"
   ],
   "publishedDefaultPageName": "Menu",
   "unpublishedDefaultPageName": "Menu",
