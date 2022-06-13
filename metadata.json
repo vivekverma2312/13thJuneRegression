@@ -5,13 +5,15 @@
     "Menu",
     "Rating",
     " Input",
-    "Audio"
+    "Audio",
+    "AudioRecorder"
   ],
   "publishedPageOrder": [
     "Menu",
     "Rating",
     " Input",
-    "Audio"
+    "Audio",
+    "AudioRecorder"
   ],
   "publishedDefaultPageName": "Menu",
   "unpublishedDefaultPageName": "Menu",
