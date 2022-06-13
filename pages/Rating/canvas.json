@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 650,
+          "bottomRow": 680,
           "containerStyle": "none",
           "snapRows": 65,
           "parentRowSpace": 1,
@@ -69,9 +69,6 @@
                   "key": "activeColor"
                 },
                 {
-                  "key": "maxCount"
-                },
-                {
                   "key": "defaultRate"
                 },
                 {
@@ -91,6 +88,9 @@
                 },
                 {
                   "key": "inactiveColor"
+                },
+                {
+                  "key": "maxCount"
                 }
               ],
               "isDisabled": "{{Checkbox3.isChecked}}",
@@ -505,27 +505,31 @@
               "widgetName": "Rating2",
               "displayName": "Rating",
               "iconSVG": "/static/media/icon.914eb943.svg",
-              "topRow": 30,
-              "bottomRow": 34,
+              "topRow": 40,
+              "bottomRow": 44,
               "parentRowSpace": 10,
               "type": "RATE_WIDGET",
-              "maxCount": 5,
+              "maxCount": "{{Text1.text}}",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
               "leftColumn": 4,
               "dynamicBindingPathList": [
                 {
                   "key": "activeColor"
+                },
+                {
+                  "key": "maxCount"
                 }
               ],
               "isDisabled": false,
-              "key": "eu7o6d68jq",
+              "key": "veq1y7kkcs",
               "isRequired": false,
               "isDeprecated": false,
               "rightColumn": 14,
               "inactiveColor": "#D6D6D6",
-              "widgetId": "4mlagrvkqx",
+              "widgetId": "k9j5mgiiag",
               "isVisible": true,
               "parentId": "0",
               "renderMode": "CANVAS",
@@ -541,6 +545,47 @@
                 "Good",
                 "Great"
               ]
+            },
+            {
+              "widgetName": "Text2",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b52.svg",
+              "topRow": 46,
+              "bottomRow": 50,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 3,
+              "dynamicBindingPathList": [
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "#FFC13D",
+              "text": "5",
+              "key": "46ewguw4v1",
+              "isDeprecated": false,
+              "rightColumn": 19,
+              "textAlign": "LEFT",
+              "widgetId": "r46buvm5dm",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "fontSize": "1rem"
             }
           ]
         },
@@ -557,7 +602,8 @@
           "RadioGroup2",
           "Rating1",
           "Rating2",
-          "Text1"
+          "Text1",
+          "Text2"
         ],
         "validOnPageLoadActions": true,
         "id": "Rating",
