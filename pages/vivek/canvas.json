@@ -423,6 +423,18 @@
                 },
                 {
                   "key": "primaryColumns.customColumn2.buttonVariant"
+                },
+                {
+                  "key": "primaryColumns.customColumn3.isCellVisible"
+                },
+                {
+                  "key": "primaryColumns.customColumn3.isDisabled"
+                },
+                {
+                  "key": "primaryColumns.customColumn3.isCompact"
+                },
+                {
+                  "key": "primaryColumns.customColumn3.iconName"
                 }
               ],
               "displayName": "Table",
@@ -450,6 +462,33 @@
               "dynamicBindingPathList": [
                 {
                   "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.customColumn3.menuColor"
+                },
+                {
+                  "key": "primaryColumns.customColumn3.borderRadius"
+                },
+                {
+                  "key": "primaryColumns.customColumn3.menuButtonLabel"
+                },
+                {
+                  "key": "primaryColumns.customColumn3.iconName"
+                },
+                {
+                  "key": "primaryColumns.customColumn3.isCompact"
+                },
+                {
+                  "key": "primaryColumns.customColumn3.isDisabled"
+                },
+                {
+                  "key": "primaryColumns.customColumn3.isCellVisible"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.buttonVariant"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.buttonColor"
                 },
                 {
                   "key": "primaryColumns.customColumn2.iconName"
@@ -549,39 +588,6 @@
                 },
                 {
                   "key": "boxShadow"
-                },
-                {
-                  "key": "derivedColumns.customColumn2.buttonColor"
-                },
-                {
-                  "key": "primaryColumns.customColumn2.buttonColor"
-                },
-                {
-                  "key": "primaryColumns.customColumn2.buttonVariant"
-                },
-                {
-                  "key": "derivedColumns.customColumn3.menuColor"
-                },
-                {
-                  "key": "primaryColumns.customColumn3.menuColor"
-                },
-                {
-                  "key": "derivedColumns.customColumn3.borderRadius"
-                },
-                {
-                  "key": "primaryColumns.customColumn3.borderRadius"
-                },
-                {
-                  "key": "derivedColumns.customColumn3.boxShadow"
-                },
-                {
-                  "key": "primaryColumns.customColumn3.boxShadow"
-                },
-                {
-                  "key": "derivedColumns.customColumn3.menuButtonLabel"
-                },
-                {
-                  "key": "primaryColumns.customColumn3.menuButtonLabel"
                 }
               ],
               "leftColumn": 1,
@@ -869,8 +875,8 @@
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
+                  "isDisabled": "{{Table2.sanitizedTableData.map((currentRow) => ( Button1.text === \"Submi\"))}}",
+                  "isCellVisible": "{{Table2.sanitizedTableData.map((currentRow) => ( Button1.text === \"Submit\"))}}",
                   "isDerived": true,
                   "label": "Menu",
                   "computedValue": "",
@@ -878,9 +884,46 @@
                   "labelColor": "#FFFFFF",
                   "menuColor": "{{Table2.sanitizedTableData.map((currentRow) => ( appsmith.theme.colors.primaryColor))}}",
                   "borderRadius": "{{Table2.sanitizedTableData.map((currentRow) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-                  "boxShadow": "{{Table2.sanitizedTableData.map((currentRow) => ( 'none'))}}",
-                  "iconName": "",
-                  "menuButtonLabel": "{{Table2.sanitizedTableData.map((currentRow) => ( 'Open Menu'))}}"
+                  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+                  "iconName": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.gender === 'female' ? \"bookmark\" : \"book\"))}}",
+                  "menuButtonLabel": "{{Table2.sanitizedTableData.map((currentRow) => ( 'Open Menu'))}}",
+                  "isCompact": "{{Table2.sanitizedTableData.map((currentRow) => ( Button1.text === \"Submi\"))}}",
+                  "menuItems": {
+                    "menuItem7s9vv7jcpq": {
+                      "id": "menuItem7s9vv7jcpq",
+                      "index": 0,
+                      "label": "Menu Item 1",
+                      "widgetId": "c7fa1bwd9d",
+                      "isDisabled": false,
+                      "isVisible": true
+                    },
+                    "menuItem8mgsoxzs29": {
+                      "id": "menuItem8mgsoxzs29",
+                      "index": 1,
+                      "label": "Menu Item 2",
+                      "widgetId": "hgb6i3fhia",
+                      "isDisabled": false,
+                      "isVisible": true
+                    },
+                    "menuItemi5ds74win9": {
+                      "id": "menuItemi5ds74win9",
+                      "index": 2,
+                      "label": "Menu Item 3",
+                      "widgetId": "47kxkwz2qp",
+                      "isDisabled": false,
+                      "isVisible": true
+                    },
+                    "menuItemd3rtli1uo2": {
+                      "id": "menuItemd3rtli1uo2",
+                      "index": 3,
+                      "label": "Menu Item 4",
+                      "widgetId": "wjrhvc53n9",
+                      "isDisabled": false,
+                      "isVisible": true
+                    }
+                  },
+                  "iconAlign": "right",
+                  "menuVariant": "TERTIARY"
                 }
               },
               "delimiter": ",",
@@ -939,8 +982,8 @@
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
+                  "isDisabled": "{{Table2.sanitizedTableData.map((currentRow) => ( Button1.text === \"Submi\"))}}",
+                  "isCellVisible": "{{Table2.sanitizedTableData.map((currentRow) => ( Button1.text === \"Submit\"))}}",
                   "isDerived": true,
                   "label": "Menu",
                   "computedValue": "",
@@ -948,9 +991,46 @@
                   "labelColor": "#FFFFFF",
                   "menuColor": "{{Table2.sanitizedTableData.map((currentRow) => ( appsmith.theme.colors.primaryColor))}}",
                   "borderRadius": "{{Table2.sanitizedTableData.map((currentRow) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-                  "boxShadow": "{{Table2.sanitizedTableData.map((currentRow) => ( 'none'))}}",
-                  "iconName": "",
-                  "menuButtonLabel": "{{Table2.sanitizedTableData.map((currentRow) => ( 'Open Menu'))}}"
+                  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+                  "iconName": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.gender === 'female' ? \"bookmark\" : \"book\"))}}",
+                  "menuButtonLabel": "{{Table2.sanitizedTableData.map((currentRow) => ( 'Open Menu'))}}",
+                  "isCompact": "{{Table2.sanitizedTableData.map((currentRow) => ( Button1.text === \"Submi\"))}}",
+                  "menuItems": {
+                    "menuItem7s9vv7jcpq": {
+                      "id": "menuItem7s9vv7jcpq",
+                      "index": 0,
+                      "label": "Menu Item 1",
+                      "widgetId": "c7fa1bwd9d",
+                      "isDisabled": false,
+                      "isVisible": true
+                    },
+                    "menuItem8mgsoxzs29": {
+                      "id": "menuItem8mgsoxzs29",
+                      "index": 1,
+                      "label": "Menu Item 2",
+                      "widgetId": "hgb6i3fhia",
+                      "isDisabled": false,
+                      "isVisible": true
+                    },
+                    "menuItemi5ds74win9": {
+                      "id": "menuItemi5ds74win9",
+                      "index": 2,
+                      "label": "Menu Item 3",
+                      "widgetId": "47kxkwz2qp",
+                      "isDisabled": false,
+                      "isVisible": true
+                    },
+                    "menuItemd3rtli1uo2": {
+                      "id": "menuItemd3rtli1uo2",
+                      "index": 3,
+                      "label": "Menu Item 4",
+                      "widgetId": "wjrhvc53n9",
+                      "isDisabled": false,
+                      "isVisible": true
+                    }
+                  },
+                  "iconAlign": "right",
+                  "menuVariant": "TERTIARY"
                 }
               },
               "isDeprecated": false,
