@@ -300,9 +300,6 @@
                   "key": "labelWidth"
                 },
                 {
-                  "key": "optionAlignment"
-                },
-                {
                   "key": "labelTextColor"
                 },
                 {
@@ -318,8 +315,8 @@
               "displayName": "Checkbox Group",
               "iconSVG": "/static/media/icon.ecb38479.svg",
               "labelText": "{{Text2.text}}",
-              "topRow": 6,
-              "bottomRow": 15,
+              "topRow": 5,
+              "bottomRow": 14,
               "parentRowSpace": 10,
               "labelWidth": "{{RadioGroup1.selectedOptionValue === 'Y' ? '18':'5'}}",
               "type": "CHECKBOX_GROUP_WIDGET",
@@ -332,7 +329,7 @@
                   "key": "onSelectionChange"
                 }
               ],
-              "leftColumn": 1,
+              "leftColumn": 3,
               "dynamicBindingPathList": [
                 {
                   "key": "defaultSelectedValues"
@@ -360,9 +357,6 @@
                 },
                 {
                   "key": "labelWidth"
-                },
-                {
-                  "key": "optionAlignment"
                 },
                 {
                   "key": "labelTextColor"
@@ -409,11 +403,11 @@
               "labelTextColor": "{{RadioGroup3.selectedOptionValue === 'R' ? 'Red':'Blue'}}",
               "isDisabled": "{{Checkbox3.isChecked}}",
               "key": "9d79cyrcry",
-              "optionAlignment": "{{RadioGroup2.selectedOptionValue === 'A' ? 'space-around':'flex-end'}}",
+              "optionAlignment": "space-between",
               "labelTextSize": "{{RadioGroup4.selectedOptionValue === 'S' ? '0.875rem':'1rem'}}",
               "isRequired": "{{Checkbox1.isChecked}}",
               "isDeprecated": false,
-              "rightColumn": 46,
+              "rightColumn": 48,
               "defaultSelectedValues": "{{Text1.text}}",
               "widgetId": "b9jv9vx13v",
               "accentColor": "{{RadioGroup6.selectedOptionValue === 'DB' ? '#4338ca':'GREEN'}}",
