@@ -354,7 +354,7 @@
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd.svg",
               "topRow": 34,
-              "isSortable": true,
+              "isSortable": "{{Button1.text === \"Submit\"}}",
               "type": "TABLE_WIDGET",
               "animateLoading": true,
               "dynamicBindingPathList": [
@@ -489,6 +489,9 @@
                 },
                 {
                   "key": "isVisible"
+                },
+                {
+                  "key": "isSortable"
                 }
               ],
               "leftColumn": 1,
@@ -610,6 +613,9 @@
                 },
                 {
                   "key": "isVisible"
+                },
+                {
+                  "key": "isSortable"
                 }
               ],
               "compactMode": "DEFAULT",
