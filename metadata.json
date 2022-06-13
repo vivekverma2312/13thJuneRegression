@@ -4,12 +4,12 @@
   "pageOrder": [
     "Menu",
     "Rating",
-    "Page1"
+    " Input"
   ],
   "publishedPageOrder": [
     "Menu",
     "Rating",
-    "Page1"
+    " Input"
   ],
   "publishedDefaultPageName": "Menu",
   "unpublishedDefaultPageName": "Menu",
