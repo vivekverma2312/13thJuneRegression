@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Menu",
+    "slug": "menu",
     "layouts": [
       {
         "viewMode": false,
@@ -951,14 +951,15 @@
           "Text2"
         ],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Menu",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "policies": [],

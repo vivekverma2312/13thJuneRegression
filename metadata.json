@@ -2,13 +2,15 @@
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 4,
   "pageOrder": [
-    "Page1"
+    "Menu",
+    "Rating"
   ],
   "publishedPageOrder": [
-    "Page1"
+    "Menu",
+    "Rating"
   ],
-  "publishedDefaultPageName": "Page1",
-  "unpublishedDefaultPageName": "Page1",
+  "publishedDefaultPageName": "Menu",
+  "unpublishedDefaultPageName": "Menu",
   "invisibleActionFields": {},
   "publishedLayoutmongoEscapedWidgets": {},
   "unpublishedLayoutmongoEscapedWidgets": {},
