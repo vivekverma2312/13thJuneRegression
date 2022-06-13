@@ -2,13 +2,27 @@
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 4,
   "pageOrder": [
-    "Page1"
+    "Page1",
+    "Page2",
+    "newpage",
+    "datascience",
+    "Page4",
+    "Page5",
+    "Page2 Copy",
+    "Page2 Copy1"
   ],
   "publishedPageOrder": [
-    "Page1"
+    "Page1",
+    "Page2",
+    "newpage",
+    "datascience",
+    "Page4",
+    "Page5",
+    "Page2 Copy",
+    "Page2 Copy1"
   ],
-  "publishedDefaultPageName": "Page1",
-  "unpublishedDefaultPageName": "Page1",
+  "publishedDefaultPageName": "Page2",
+  "unpublishedDefaultPageName": "Page2",
   "invisibleActionFields": {},
   "publishedLayoutmongoEscapedWidgets": {},
   "unpublishedLayoutmongoEscapedWidgets": {},
