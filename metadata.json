@@ -3,27 +3,20 @@
   "serverSchemaVersion": 4,
   "pageOrder": [
     "Page1",
-    "Page2",
-    "newpage",
-    "datascience",
-    "Page4",
-    "Page5",
-    "Page2 Copy",
-    "Page2 Copy1"
+    "vivek"
   ],
   "publishedPageOrder": [
     "Page1",
-    "Page2",
-    "newpage",
-    "datascience",
-    "Page4",
-    "Page5",
-    "Page2 Copy",
-    "Page2 Copy1"
+    "vivek"
   ],
-  "publishedDefaultPageName": "Page2",
-  "unpublishedDefaultPageName": "Page2",
-  "invisibleActionFields": {},
+  "publishedDefaultPageName": "Page1",
+  "unpublishedDefaultPageName": "Page1",
+  "invisibleActionFields": {
+    "vivek_Query1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    }
+  },
   "publishedLayoutmongoEscapedWidgets": {},
   "unpublishedLayoutmongoEscapedWidgets": {},
   "fileFormatVersion": 2
