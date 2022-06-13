@@ -3,11 +3,13 @@
   "serverSchemaVersion": 4,
   "pageOrder": [
     "Menu",
-    "Rating"
+    "Rating",
+    "Page1"
   ],
   "publishedPageOrder": [
     "Menu",
-    "Rating"
+    "Rating",
+    "Page1"
   ],
   "publishedDefaultPageName": "Menu",
   "unpublishedDefaultPageName": "Menu",
