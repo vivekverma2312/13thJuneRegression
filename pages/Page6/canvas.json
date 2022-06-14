@@ -112,11 +112,14 @@
                 },
                 {
                   "key": "capType"
+                },
+                {
+                  "key": "orientation"
                 }
               ],
               "key": "m7znmpzu2r",
               "dividerColor": "{{Button1.text===\"Submi\"?\"#16a34a\":\"Salmon\"}}",
-              "orientation": "{{Button1.text===\"Submit\"?\"horizontal\":\"vertical\"}}",
+              "orientation": "{{Button1.text===\"Submi\"?\"horizontal\":\"vertical\"}}",
               "strokeStyle": "{{Button1.text===\"Submit\"?\"dashed\":\"dotted\"}}",
               "isDeprecated": false,
               "rightColumn": 36,
