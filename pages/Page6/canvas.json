@@ -29,15 +29,22 @@
               "boxShadow": "none",
               "widgetName": "IconButton1",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "iconName"
+                }
+              ],
               "displayName": "Icon Button",
               "iconSVG": "/static/media/icon.1a0c634a.svg",
               "topRow": 6,
               "bottomRow": 16,
+              "tooltip": "hey this is tooltip",
               "parentRowSpace": 10,
               "type": "ICON_BUTTON_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [],
               "leftColumn": 8,
               "dynamicBindingPathList": [
                 {
@@ -45,13 +52,16 @@
                 },
                 {
                   "key": "borderRadius"
+                },
+                {
+                  "key": "iconName"
                 }
               ],
-              "isDisabled": false,
+              "isDisabled": true,
               "key": "42rt4h7dey",
               "isDeprecated": false,
               "rightColumn": 20,
-              "iconName": "plus",
+              "iconName": "{{Button1.text===\"Submi\"?\"projects\":\"print\"}}",
               "widgetId": "03jtkr8h6f",
               "isVisible": true,
               "version": 1,
@@ -85,7 +95,7 @@
               "displayName": "Divider",
               "iconSVG": "/static/media/icon.cbe8f608.svg",
               "topRow": 26,
-              "bottomRow": 31,
+              "bottomRow": 33,
               "parentRowSpace": 10,
               "type": "DIVIDER_WIDGET",
               "capType": "{{Button1.text===\"Submi\"?\"arrow\":\"dot\"}}",
@@ -122,7 +132,7 @@
               "orientation": "{{Button1.text===\"Submit\"?\"horizontal\":\"vertical\"}}",
               "strokeStyle": "{{Button1.text===\"Submit\"?\"dashed\":\"dotted\"}}",
               "isDeprecated": false,
-              "rightColumn": 36,
+              "rightColumn": 44,
               "widgetId": "4joo62noc3",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "capSide": 1,
